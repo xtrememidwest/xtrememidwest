@@ -39,7 +39,7 @@ img {
 }
 body {
   font-family: "Noto Serif", serif;
-  color: #fff;
+  color: #ffffff;
   background-color: #7e6d82;
   /* border-bottom: 16px solid #000; */
 }
@@ -98,7 +98,7 @@ h3 {
 .header {
   display: flex;
   text-align: center;
-  color: #fff;
+  /* color: #fff; */
   height: fit-content;
   width: auto;
   background-color: #8e5062;
@@ -138,7 +138,7 @@ h3 {
   font-weight: bold;
   position: absolute;
   background-color: #00000040;
-  color: #fff;
+  /* color: #fff; */
   z-index: 1;
   height: 100%;
   text-shadow: 5px 5px #000;
@@ -161,7 +161,7 @@ h3 {
   width: 100%;
   /* background-color: #8E5062; */
   height: auto;
-  color: #000;
+  /* color: #000; */
   flex-wrap: nowrap;
   justify-content: space-between;
   /* align-items: center; */
@@ -231,6 +231,8 @@ h3 {
   .body-container {
     height: auto;
     padding: 32px 16px 32px 16px;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   .header {
     margin-top: 0;
@@ -250,6 +252,7 @@ h3 {
   }
   .header {
     flex-wrap: wrap;
+    margin: 0 16px;
   }
   .header h1 {
     margin: 0;
@@ -257,9 +260,13 @@ h3 {
   .first-content-section {
     flex-direction: column-reverse;
     flex-wrap: wrap-reverse;
-    align-items: normal;
+    align-items: center;
+    margin: 0;
   }
   .first-text-box-container {
     margin: 0;
+  }
+  .first-img-body-container{
+    width: 100%;
   }
 }
