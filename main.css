@@ -281,6 +281,11 @@ hr {
     margin: 20px 0
 }
 
+.xm-logo {
+    max-width: 170px;
+    height: auto
+}
+
 .xm-image {
     max-width: 100%;
     height: auto
@@ -872,6 +877,19 @@ a {
         position: relative
     }
 
+    .xm-move-right .xm-display-middle{
+        left: 87%;
+    }
+    .xm-small-font-on-small {
+        font-size: 16px !important;
+    }
+    .smaller-logo-on-small {
+        max-width: 120px;
+    }
+    .smaller-Jumbo-text-on-small {
+        font-size: 50px;
+    }
+
     .xm-hide-small {
         display: none !important
     }
@@ -922,6 +940,9 @@ a {
 }
 
 @media (max-width:992px) and (min-width:601px) {
+    .xm-move-right .xm-display-middle{
+        left: 88%;
+    }
     .xm-hide-medium {
         display: none !important
     }
@@ -1328,7 +1349,7 @@ a {
 }
 
 .xm-xlarge {
-    font-size: 24px !important
+    font-size: 24px
 }
 
 .xm-xxlarge {
@@ -1340,7 +1361,7 @@ a {
 }
 
 .xm-jumbo {
-    font-size: 64px !important
+    font-size: 64px
 }
 
 .xm-left-align {
