@@ -17,7 +17,7 @@ html {
 
 body {
     margin: 0;
-    background-image: url("images/backgroundImage.jpg");
+    background-image: url("images/backgroundImagelighterwithpaint.jpg");
 }
 
 article,
@@ -608,8 +608,7 @@ a {
 }
 
 .xm-block {
-    display: block;
-    width: 100%
+    width: 50%
 }
 
 .xm-responsive {
@@ -1379,6 +1378,9 @@ a {
 .xm-center {
     text-align: center !important
 }
+.xm-line-height {
+    line-height: 175%;
+}
 
 .xm-border-0 {
     border: 0 !important
@@ -1393,7 +1395,7 @@ a {
 }
 
 .xm-border-bottom {
-    border-bottom: 1px solid #ccc !important
+    border-bottom: 10px solid #ccc !important
 }
 
 .xm-border-left {
