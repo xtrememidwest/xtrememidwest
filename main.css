@@ -1687,6 +1687,11 @@ a {
     background-color: #2EC4B6 !important
 }
 
+.xm-light-green-button {
+    color: #0F0F0F !important;
+    background-color: #1bffe8 !important
+}
+
 .xm-white,
 .xm-hover-white:hover {
     color: #0F0F0F !important;
