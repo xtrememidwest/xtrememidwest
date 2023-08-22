@@ -1430,7 +1430,8 @@ a {
 }
 
 .xm-border-bottom {
-    border-bottom: 10px solid #ccc !important
+    width: 80%;
+    border-bottom: 3px solid #ccc !important
 }
 
 .xm-border-left {
